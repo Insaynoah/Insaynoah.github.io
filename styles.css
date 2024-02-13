@@ -1,0 +1,25 @@
+footer{
+    background-color: lightgray;
+}
+
+.weather_city{
+    background-color: gainsboro;   
+}
+
+.weather_city img{
+    width: 5%;
+
+}
+
+header{
+    background-color: black;
+}
+
+header h1{
+    text-align: center;
+    color: white;
+}
+
+#container-flex{
+    display: flex;
+}
