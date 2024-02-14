@@ -22,4 +22,5 @@ header h1{
 
 #container-flex{
     display: flex;
+    justify-content: space-evenly;
 }
