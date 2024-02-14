@@ -5,44 +5,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles.css"/>
+    <script defer src="td1.js"></script>
 </head>
 <body>
     <header>
-        <h1> TD n°1 Programmation
-            web – Application météo</h1>
+        <h1>TD n°1 Programmation web – Application météo</h1>
     </header>
+    <select id="Ville" name="Ville" onchange="afficheVille()">
+        <option value="Niort">Niort</option>
+        <option value="Turku">Turku</option>
+        <option value="Huijbergen">Huijbergen</option>
+    </select>
 
     <div id="container-flex">
-    <div class="weather_city">
-    <h2>Niort</h2>
-    <p>12°,pluvieux</p>
-    <img src="pluvieux.png" />
+        <div class="weather_city" id="Niort">
+            <h2>Niort</h2>
+            <p>12°, pluvieux</p>
+            <img src="pluvieux.png" />
+        </div>
 
+        <div class="weather_city" id="Turku">
+            <h2>Turku</h2>
+            <p>-20°, trop froid</p>
+            <img src="freezing.png" />
+        </div>
+
+        <div class="weather_city" id="Huijbergen">
+            <h2>Huijbergen</h2>
+            <p>5°, festif</p>
+            <img src="parade.png" />
+        </div>
     </div>
 
-
-    <div class="weather_city">
-        <h2>Turku</h2>
-        <p>-20°,trop froid</p>
-        <img src="freezing.png" />
-    
-        </div>
-
-
-        <div class="weather_city">
-            <h2>Huijbergen</h2>
-            <p>5°,festif</p>
-            <img src="parade.png" />
-        
-            </div>
-        </div>
     <footer>
         <h3>Nono de Gunst</h3>
-
         <p>Icones par : <a href="https://thenounproject.com">the noun project</a></p>
-
-
     </footer>
-    
+
 </body>
 </html>
